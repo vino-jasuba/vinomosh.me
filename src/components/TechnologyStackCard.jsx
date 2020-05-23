@@ -2,7 +2,7 @@ import React from "react";
 
 export default function TechnologyStackCard({ technology }) {
   return (
-    <div className="bg-dusk p-8 mt-2 transform hover:scale-105">
+    <div className="bg-dusk p-8 mt-2 transform hover:scale-110 transition">
       <h3 className="uppercase text-xs font font-semibold tracking-widest">
         {technology.category}
       </h3>

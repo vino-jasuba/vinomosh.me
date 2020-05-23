@@ -6,7 +6,7 @@ import ExternalLinkIcon from "../assets/external-link.svg";
 export default function SocialIcons() {
   return (
     <>
-      <div className="flex ml-2 items-center">
+      <div className="flex ml-4 sm:ml-12 items-center">
         <img className="w-4" src={TwitterIcon} alt="twitter icon" />
         <a
           href="https://twitter.com/_jasuba"
@@ -18,7 +18,7 @@ export default function SocialIcons() {
         </a>
         <img className="w-4" src={ExternalLinkIcon} alt="go to twitter" />
       </div>
-      <div className="flex ml-2 items-center">
+      <div className="flex ml-4 sm:ml-12 items-center">
         <img className="w-4" src={GithubIcon} alt="github icon" />
         <a
           href="https://github.com/vino-jasuba"

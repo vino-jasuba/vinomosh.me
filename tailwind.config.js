@@ -1,6 +1,11 @@
 module.exports = {
   purge: [],
   theme: {
+    screens: {
+      sm: '1024px',
+      md: '1280px',
+      lg: '1440px',
+    },
     fontFamily: {
       sans: [
         "Bell Gothic",
@@ -23,6 +28,7 @@ module.exports = {
       },
     },
   },
-  variants: {},
+  variants: {
+  },
   plugins: [],
 }

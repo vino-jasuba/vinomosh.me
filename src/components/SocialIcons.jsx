@@ -6,30 +6,26 @@ import ExternalLinkIcon from "../assets/external-link.svg";
 export default function SocialIcons() {
   return (
     <>
-      <div className="flex ml-4 sm:ml-12 items-center">
+      <a
+        href="https://twitter.com/_jasuba"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex ml-6 sm:ml-12 items-center"
+      >
         <img className="w-4" src={TwitterIcon} alt="twitter icon" />
-        <a
-          href="https://twitter.com/_jasuba"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="ml-2 mr-2"
-        >
-          Twitter
-        </a>
+        <span className="mx-2">Twitter</span>
         <img className="w-4" src={ExternalLinkIcon} alt="go to twitter" />
-      </div>
-      <div className="flex ml-4 sm:ml-12 items-center">
+      </a>
+      <a
+        href="https://github.com/vino-jasuba"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex ml-6 sm:ml-12 items-center"
+      >
         <img className="w-4" src={GithubIcon} alt="github icon" />
-        <a
-          href="https://github.com/vino-jasuba"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="ml-2 mr-2"
-        >
-          GitHub
-        </a>
+        <span className="mx-2">GitHub</span>
         <img className="w-4" src={ExternalLinkIcon} alt="go to github" />
-      </div>
+      </a>
     </>
   );
 }

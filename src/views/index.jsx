@@ -35,7 +35,7 @@ const technologies = [
 
 export default function Index() {
   return (
-    <div className="text-white lg:relative">
+    <div className="text-white lg:relative max-w-1920px">
       <div className="left-0 sm:static md:static sm:px-8 sm:pt-12 md:px-16 md:pt-12 lg:h-screen lg:px-56 lg:pt-48 lg:flex lg:flex-col lg:fixed">
         <div className="p-8 lg:p-0">
           <h1 className="text-2xl md:px-8 lg:text-4xl">You&apos;ve reached</h1>

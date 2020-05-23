@@ -26,6 +26,9 @@ module.exports = {
         dusk: "#202022",
         dawn: "#949495",
       },
+      maxWidth: {
+        '1920px': '1920px',
+      }
     },
   },
   variants: {

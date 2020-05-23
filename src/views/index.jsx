@@ -35,7 +35,7 @@ const technologies = [
 
 export default function Index() {
   return (
-    <div className="text-white lg:relative max-w-1920px">
+    <div className="text-white lg:relative">
       <div className="left-0 sm:static md:static sm:px-8 sm:pt-12 md:px-16 md:pt-12 lg:h-screen lg:px-56 lg:pt-48 lg:flex lg:flex-col lg:fixed">
         <div className="p-8 lg:p-0">
           <h1 className="text-2xl md:px-8 lg:text-4xl">You&apos;ve reached</h1>
@@ -58,7 +58,7 @@ export default function Index() {
           </ExternalLink>{" "}
           with <ExternalLink to="https://reactjs.org">React.Js</ExternalLink>.{" "}
           Drop me an{" "}
-          <ExternalLink to="mailto:ovincent7949@gmail.com">email</ExternalLink>{" "}
+          <ExternalLink to="mailto:info@vinomosh.me">email</ExternalLink>{" "}
           if you think we're a good fit or if you just want to listen to me talk
           about{" "}
           <ExternalLink to="https://www.google.com/search?q=one+piece">

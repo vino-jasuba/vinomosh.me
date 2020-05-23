@@ -1,5 +1,9 @@
 @tailwind base;
 
+.gradient-fade {
+    background: linear-gradient(180deg,rgba(21,21,21,0),#151515);
+}
+
 @tailwind components;
 
 @tailwind utilities;

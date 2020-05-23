@@ -578,6 +578,10 @@ video {
   height: auto;
 }
 
+.gradient-fade {
+  background: linear-gradient(180deg,rgba(21,21,21,0),#151515);
+}
+
 .container {
   width: 100%;
 }
